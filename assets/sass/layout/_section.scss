@@ -1,0 +1,73 @@
+
+.contact{
+  width: 100%;
+  height: 16.5rem;
+  margin:0;
+  display: flex;
+
+  &__content{
+    width: 23.8rem;
+    height: 16.5rem;
+    display: block;
+    position: relative;
+  }
+  &__content-map{
+    width: 32.4rem;
+    height: 16.5rem;
+    display: block;
+    position: relative;
+  }
+  &__content-image{
+    width: 29rem;
+    height: 15rem;
+    display: block;
+    position: relative;
+  }
+  &__info{
+    width: 100%;
+    padding:4rem 2rem;
+    display: inline;
+    box-sizing: border-box;
+    height: 16.5rem;
+    display:block;
+    background-color: $white;
+  }
+
+  &__location {
+    width: 24.7rem;
+    height: 13.1rem;
+    z-index: 2;
+    position: relative;
+    margin: 1.3rem 0px 0rem 1.5rem;
+  }
+
+  &__bluebox {
+    width: 30rem;
+    height: 13.1rem;
+    background-color: $blue-france;
+    position: absolute;
+    z-index: 1;
+    margin-left: 2.5rem;
+  }
+
+  &__coffee {
+    width: 5rem;
+    height: 9.3rem;
+    z-index:2;
+    margin-left: 29rem;
+    position: absolute;
+    background-image: url('../images/img-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+  }
+}

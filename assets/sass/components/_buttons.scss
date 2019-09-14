@@ -1,0 +1,27 @@
+.button{
+  background-color: $white;
+  border: 1px solid $spanish-gray;
+  border-radius: 0px;
+  font-family: $pt-mono;
+  font-size: $medium;
+  color: $spanish-gray;
+  margin-right: 2rem;
+  &:hover{
+    color: $outer-space;
+    border: 1px solid $outer-space;
+  }
+}
+
+.button-green{
+  background-color: $shiny-shamrock;
+  border: 1px solid $shiny-shamrock;
+  border-radius: 0px;
+  font-family: $pt-mono;
+  font-size: $medium;
+  color:$white;
+  &:hover{
+    color: $outer-space;
+    border: 1px solid $turquoise-green;
+    background-color: $turquoise-green;
+  }
+}
